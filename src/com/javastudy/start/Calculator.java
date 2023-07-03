@@ -1,4 +1,4 @@
-package com.javastudy.io;
+package com.javastudy.start;
 
 public class Calculator {
     public static void main(String[] args) {

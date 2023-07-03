@@ -1,4 +1,4 @@
-package com.javastudy.io;
+package com.javastudy.start;
 
 public class Operator {
     public static void main(String[] args) {
