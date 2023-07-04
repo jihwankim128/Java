@@ -20,5 +20,6 @@ public class ScannerTest {
         System.out.println("입력받은 더블 : " + d);
         System.out.println("입력받은 문자열 : " + notSpace);
         System.out.println("입력받은 문자열 : " + includeSpace);
+        scan.close();
     }
 }
