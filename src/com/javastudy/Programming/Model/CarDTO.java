@@ -1,10 +1,10 @@
 package com.javastudy.Programming.Model;
 
 public class CarDTO {
-    int carSn;
-    String carName;
-    int carPrice;
-    String carOwner;
-    int carYear;
-    String carType;
+    public int carSn;
+    public String carName;
+    public int carPrice;
+    public String carOwner;
+    public int carYear;
+    public String carType;
 }
