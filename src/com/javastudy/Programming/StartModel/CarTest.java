@@ -26,8 +26,17 @@ public class CarTest {
         System.out.print("자동차 타입 : ");
         String carType = scan.nextLine();
 
+        scan.close();
+
+        carInfoPrint(carSn, carName, carPrice, carOwner,
+                carYear, carType);
+    }
+
+    public static void carInfoPrint(int carSn, String carName, int
+                             carPrice, String carOwner, int
+                             carYear, String carType) {
         System.out.println(carSn + "\t" + carName +
                 "\t" + carPrice + "\t" + carOwner
-        +"\t" + carYear + "\t" + carType);
+                +"\t" + carYear + "\t" + carType);
     }
 }
