@@ -1,4 +1,4 @@
-package com.javastudy.Programming.Main;
+package com.javastudy.Programming.StartModel;
 
 import java.util.Scanner;
 
