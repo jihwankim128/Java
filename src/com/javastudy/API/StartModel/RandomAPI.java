@@ -1,4 +1,4 @@
-package com.javastudy.API.Utility;
+package com.javastudy.API.StartModel;
 
 import java.util.Random;
 
