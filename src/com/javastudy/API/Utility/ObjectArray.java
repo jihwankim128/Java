@@ -17,7 +17,6 @@ public class ObjectArray {
         elements = new Object[capacity];
     }
 
-
     public void add(Object element) {
         if (size == elements.length) {
             ensureCapacity();

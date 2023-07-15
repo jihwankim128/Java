@@ -12,6 +12,7 @@ public class MyObjectArrayTest {
         list.add(new B());
         list.add(new C());
 
+
         for(int i = 0; i< list.size(); i++) {
             if(list.get(i) instanceof A) {
                 ((A)list.get(i)).print();
