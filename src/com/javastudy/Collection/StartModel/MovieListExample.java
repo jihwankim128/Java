@@ -31,6 +31,15 @@ public class MovieListExample {
                     m.getTitle(), m.getDirector(), m.getYear(), m.getCountry());
         }
         System.out.println("+----------------+--------+----------+------+");
+
+        String searchTitle = "기생충";
+        for(Movie m : list) {
+            if(m.getTitle().equals(searchTitle)) {
+                System.out.println(searchTitle+"은 존재");
+                System.out.println(m);
+                break;
+            }
+        }
     }
 
     public static int getSpace(String s, int max_len) {
