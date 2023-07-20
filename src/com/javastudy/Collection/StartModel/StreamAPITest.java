@@ -18,6 +18,7 @@ public class StreamAPITest {
         IntStream istr = Arrays.stream(numbers);
         int sumOfEvens = istr.filter(n->n%2==0).sum();
         System.out.println(sumOfEvens);
+        istr.close();
 
         // Stream을 이용해서 짝수 배열 구하기
         // Stream을 일회성이다.
