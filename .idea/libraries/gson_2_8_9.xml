@@ -4,6 +4,7 @@
       <root url="jar://$PROJECT_DIR$/../../../UTILITY/gson-2.8.9.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../../유틸/gson-2.8.9.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../../유틸/jsoup-1.14.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gson-2.10.1.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar" />
